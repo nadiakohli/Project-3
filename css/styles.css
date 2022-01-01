@@ -52,7 +52,6 @@
     src: url("../fonts/Exo20-Bold.ttf") format(".ttf");
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -62,7 +61,7 @@
 html, body {
     margin: 0;
     box-sizing: border-box;
-    background:#ffffff;
+    background:#fff;
 }
 
 button, img {
@@ -96,11 +95,10 @@ a {
     font-family: Parangon530C, sans-serif;
     font-size: 48px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #fff;
     margin-top: 206px;
     text-align: center;
 }
-
 
 .top-title-text-rectangles .top-title-text-paragraph {
     line-height: 1.5;
@@ -123,7 +121,7 @@ a {
 #rectangle {
     width: 250px;
     height: 155px;
-    border: solid 2px #ffffff; 
+    border: 2px solid #fff; 
     margin-bottom: 120px;
     position: relative;
 }
@@ -137,7 +135,7 @@ a {
     font-size: 48px;
     text-transform: uppercase;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
     text-align: center;
     margin-top: 33px;
 
@@ -151,7 +149,7 @@ a {
     line-height: 1.5;
     font-family: PTSans-Caption, sans-serif;
     font-size: 18px;
-    color: #ffffff;
+    color: #fff;
     text-align: center;
 }
 
@@ -184,10 +182,10 @@ a {
 
 .main-nav li a {
     padding:  0 15px;
-    color: #000000;
+    color: #000;
 }
 
-.main-nav a:hover{
+.main-nav a:hover {
     color: #f6ae48;
 }  
 
@@ -203,7 +201,6 @@ a {
     justify-content: space-between;
     align-items: center;
     height: 524px;
-    /* margin: 175px 0; */
 }
 
 .studio-title-text h1 {
@@ -211,12 +208,11 @@ a {
     font-family: HelveticaNeueCyr-Bold, sans-serif;
     font-size: 48px;
     font-weight: bold;
-    color: #000000;
+    color: #000;
     text-align: left;
 }
 
 .studio-title-text p {
-    /* width: 843px; */
     line-height: 1.5;
     font-family: PTSans-Caption, sans-serif;
     font-size: 18px;
@@ -246,31 +242,29 @@ a {
     font-family: Arial-BoldMT, sans-serif;
     font-size: 20px;
     font-weight: bold;
-    color: #000000;
+    color: #000;
     text-align: left;
-    /* margin: 10px 0; */
 }
 
 .block:hover h1 {
     font-family: Arial-BoldMT, sans-serif;
     font-size: 20px;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
     background-color: #f6ae48;
     text-align: left;
     padding: 5px;
-    /* margin: 10px 0; */
 }
 
 .block p {
     font-family: Arial-Regular, sans-serif;
     font-size: 15px;
-    color: #000000;
+    color: #000;
     text-align: left;
 }
 
 .block:hover p {
-    color: #ffffff;
+    color: #fff;
     background-color: #f6ae48;
     font-family: Arial-Regular, sans-serif;
     font-size: 15px;
@@ -299,19 +293,18 @@ a {
 }
 
 a.studio-image {
-    background: url(../images/two_rockets.png); /* Путь к файлу с исходным  рисунком */
-    display: block; /* Ссылка как блочный элемент */
-    width: 35px; /* Ширина рисунка в пикселах */
-    height: 58px; /* Высота рисунка */
+    background: url(../images/two_rockets.png); 
+    display: block; 
+    width: 35px; 
+    height: 58px; 
 }
 
 a.studio-image:hover {
-    background-position: 0 -61px; /* Смещение фона */
+    background-position: 0 -61px; 
 }
 /* -------------studio end--------------- */
 /* --------development------------ */
 .container-development-background {
-    /* padding: 0 127px; */
     background-image: url('../images/background_development.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -331,7 +324,7 @@ a.studio-image:hover {
     font-family: Exo20-Bold, sans-serif;
     font-size: 50px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #fff;
     text-align: center;
 }
 
@@ -341,7 +334,7 @@ a.studio-image:hover {
     width: 1040px;
     font-family: HelveticaNeueCyr-Roman, sans-serif;
     font-size: 24px;
-    color: #ffffff;
+    color: #fff;
     text-align: center;
 }
 
@@ -367,7 +360,7 @@ a.studio-image:hover {
     font-family: Parangon530C, sans-serif;
     font-size: 50px;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
 }
 
 .development-three-block {
@@ -389,12 +382,12 @@ a.studio-image:hover {
     font-family: FuturaBT-Bold, sans-serif;
     font-size: 50px;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
     text-transform: uppercase;
 }
 
 .line {
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #fff;
 }
 
 .development-block-2 h1 {
@@ -405,7 +398,7 @@ a.studio-image:hover {
     font-family: Exo20-Bold, sans-serif;
     font-size: 50px;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
     text-transform: uppercase;
 }
 
@@ -417,7 +410,7 @@ a.studio-image:hover {
     font-family: Exo20-Bold, sans-serif;
     font-size: 50px;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
     text-transform: uppercase;
 }
 
@@ -435,7 +428,7 @@ a.studio-image:hover {
 
 .development-button-arrow-1 button {
     margin: 5px 0;
-    color: #ffffff;
+    color: #fff;
     background: transparent;
     border: 2px solid #00b9e7;
     padding: 8px 19px;
@@ -457,7 +450,7 @@ a.studio-image:hover {
 
 .development-button-arrow-2 button {
     margin: 5px 0;
-    color: #ffffff;
+    color: #fff;
     background: transparent;
     border: 2px solid #f6ae48;
     padding: 8px 19px;
@@ -479,7 +472,7 @@ a.studio-image:hover {
 
 .development-button-arrow-3 button {
     margin: 5px 0;
-    color: #ffffff;
+    color: #fff;
     background: transparent;
     border: 2px solid #66bf0d;
     padding: 8px 19px;
@@ -550,7 +543,7 @@ a.studio-image:hover {
     font-family: Parangon530C, sans-serif;
     font-size: 36px;
     font-weight: bold;
-    color: #000000;
+    color: #000;
     text-transform: uppercase;
 }
 
@@ -562,7 +555,7 @@ a.studio-image:hover {
     width: 565px;
     z-index: 2; 
     font-size: 24px;
-    color: #000000;
+    color: #000;
     font-family: Arial-Regular, sans-serif;
     text-align: left;
     line-height: 1.5;
@@ -616,7 +609,7 @@ a.studio-image:hover {
     font-family: Parangon530C-Regular, sans-serif;
     font-size: 36px;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
     text-transform: uppercase;
 }
 
@@ -647,7 +640,7 @@ a.studio-image:hover {
     background-color: #6a6b8e;
     border: none;
     border-radius: 20px;
-    color: #ffffff;
+    color: #fff;
     padding: 20px 43px;
     margin: 25px 0;
     text-align: center;
@@ -660,13 +653,6 @@ a.studio-image:hover {
     height: 66px;
 }
 
-/* .color-strip-button button:hover {
-    color: #ffffff;
-    background-color: #f7bb65;
-    font-family: Tahoma-Bold, sans-serif;
-    font-weight: bold;
-} */
-
 .images-auto-service h1 {
     display: flex;
     text-align: center;
@@ -677,7 +663,7 @@ a.studio-image:hover {
     font-family: Exo20-SemiBold, sans-serif;
     font-size: 72px;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
     text-transform: uppercase;
 }
 
@@ -691,7 +677,7 @@ a.studio-image:hover {
     font-family: Exo20-SemiBold, sans-serif;
     font-size: 30px;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
 }
 /* --------------our-projects end------- */
 /* -------adaptation------- */
@@ -730,7 +716,7 @@ a.studio-image:hover {
     font-family: Parangon530C, sans-serif;
     font-size: 36px;
     font-weight: bold;
-    color: #000000;
+    color: #000;
     text-transform: uppercase;
 }
 
@@ -742,7 +728,7 @@ a.studio-image:hover {
     width: 550px;
     z-index: 2; 
     font-size: 24px;
-    color: #000000;
+    color: #000;
     font-family: Arial-Regular, sans-serif;
     text-align: left;
     line-height: 1.5;
@@ -786,7 +772,7 @@ a.studio-image:hover {
     font-family: Parangon530C, sans-serif;
     font-size: 48px;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
     text-transform: uppercase;
 }
 
@@ -820,7 +806,7 @@ a.studio-image:hover {
     font-family: Parangon530C, sans-serif;
     font-size: 30px;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
     text-transform: uppercase;
 }
 
@@ -833,14 +819,14 @@ a.studio-image:hover {
     margin-top: 30px;
     font-family: arial, sans-serif;
     font-size: 18px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .trade-in-button button {
     background-color: #f6ae48;
     border: none;
     border-radius: 20px;
-    color: #ffffff;
+    color: #fff;
     padding: 15px 30px;
     margin: 46px 0;
     text-align: center;
@@ -887,7 +873,7 @@ a.studio-image:hover {
     font-family: Parangon530C, sans-serif;
     font-size: 36px;
     font-weight: bold;
-    color: #000000;
+    color: #000;
     text-transform: uppercase;
 }
 
@@ -899,7 +885,7 @@ a.studio-image:hover {
     width: 550px;
     z-index: 2; 
     font-size: 24px;
-    color: #000000;
+    color: #000;
     font-family: Arial-Regular, sans-serif;
     text-align: left;
     line-height: 1.5;
@@ -943,7 +929,7 @@ a.studio-image:hover {
     font-family: Parangon530C, sans-serif;
     font-size: 30px;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
     text-transform: uppercase;
     text-align: left;
 }
@@ -952,7 +938,7 @@ a.studio-image:hover {
     margin-top: 55px;
     display: flex;
     font-size: 18px;
-    color: #ffffff;
+    color: #fff;
     font-family: Arial-Regular, sans-serif;
     text-align: left;
     line-height: 1.5;
@@ -960,10 +946,6 @@ a.studio-image:hover {
 
 .contact-us-paragraph-button {
     width: 610px;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -974,7 +956,7 @@ a.studio-image:hover {
 .contact-us-paragraph-button p {
     display: flex;
     font-size: 14px;
-    color: #ffffff;
+    color: #fff;
     font-family: Arial-Regular, sans-serif;
     line-height: 1.5;
     margin: 15px 0 0 25px;
@@ -984,7 +966,7 @@ a.studio-image:hover {
     background-color: #f6ae48;
     border: none;
     border-radius: 20px;
-    color: #ffffff;
+    color: #fff;
     padding: 15px 30px;
     margin: 15px 0 0 15px;
     text-align: center;
@@ -1015,7 +997,7 @@ a.studio-image:hover {
     width: 612px;
     height: 45px;
     font-size: 18px;
-    border-color: #ffffff;
+    border-color: #fff;
     padding: 19px;
     font-family: Arial-Regular, sans-serif;
 }
@@ -1026,13 +1008,13 @@ a.studio-image:hover {
     height: 162px;
     resize: none;
     font-size: 18px;
-    border-color: #ffffff;
+    border-color: #fff;
     padding: 19px;
     font-family: Arial-Regular, sans-serif;
 }
 
 ::placeholder {
-    color: #ffffff;
+    color: #fff;
     font-size: 18px;
     font-family: Arial-Regular, sans-serif;
 }
