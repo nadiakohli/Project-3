@@ -293,7 +293,7 @@ a {
 }
 
 a.studio-image {
-    background: url(../images/two_rockets.png); 
+    background: url(../images/twoRockets.png); 
     display: block; 
     width: 35px; 
     height: 58px; 
@@ -305,7 +305,7 @@ a.studio-image:hover {
 /* -------------studio end--------------- */
 /* --------development------------ */
 .container-development-background {
-    background-image: url('../images/background_development.png');
+    background-image: url('../images/backgroundDevelopment.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -749,7 +749,7 @@ a.studio-image:hover {
 /* ----------trade-in------- */
 .container-trade-in-background {
     padding: 0 127px;
-    background-image: url('../images/trade_in_background.png');
+    background-image: url('../images/tradeInBackground.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -906,7 +906,7 @@ a.studio-image:hover {
 /* ----contact-us--- */
 .container-contact-us-background {
     padding: 0 127px;
-    background-image: url('../images/contact_us_background.png');
+    background-image: url('../images/contactUsBackground.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
