@@ -998,6 +998,7 @@ a.studio-image:hover {
     height: 45px;
     font-size: 18px;
     border-color: #fff;
+    color: #fff;
     padding: 19px;
     font-family: Arial-Regular, sans-serif;
 }
@@ -1009,6 +1010,7 @@ a.studio-image:hover {
     resize: none;
     font-size: 18px;
     border-color: #fff;
+    color: #fff;
     padding: 19px;
     font-family: Arial-Regular, sans-serif;
 }
