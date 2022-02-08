@@ -272,11 +272,25 @@ a {
     padding: 5px;
 }
 
-.block:hover .studio-image {
-    background: url('../images/rocketWhiteStudio.png'); /* Путь к файлу с исходным  рисунком */
-    display: block; /* Ссылка как блочный элемент */
-    width: 35px; /* Ширина рисунка в пикселах */
-    height: 58px; /* Высота рисунка */
+.block:hover .studio-rocket-image {
+    background: url('../images/rocketWhiteStudio.png'); 
+    display: block;
+    width: 30px; 
+    height: 58px; 
+}
+
+.block:hover .studio-phone-image {
+    background: url('../images/phoneWhiteStudio.png'); 
+    display: block;
+    width: 28px; 
+    height: 45px; 
+}
+
+.block:hover .studio-heart-image {
+    background: url('../images/lifelineWhiteStudio.png'); 
+    display: block;
+    width: 57px; 
+    height: 45px; 
 }
 
 .img-white:hover {
@@ -298,17 +312,6 @@ a {
     padding: 8px 19px;
     font-size: 18px;
     font-family: MyriadPro-Regular, sans-serif;
-}
-
-a.studio-image {
-    background: url(../images/rocketWhiteStudio.png); /* Путь к файлу с исходным  рисунком */
-    display: block; /* Ссылка как блочный элемент */
-    width: 35px; /* Ширина рисунка в пикселах */
-    height: 58px; /* Высота рисунка */
-}
-
-a.studio-image:hover {
-    background-position: 0 -61px; /* Смещение фона */
 }
 
 /* --------development------------ */
