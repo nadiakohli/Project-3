@@ -279,6 +279,14 @@ a {
     height: 58px; 
 }
 
+a.studio-rocket-image {
+    background: url('../images/rocketStudio.png'); 
+    display: block; 
+    width: 30px;
+    height: 58px; 
+    margin-bottom: 10px;
+}
+
 .block:hover .studio-phone-image {
     background: url('../images/phoneWhiteStudio.png'); 
     display: block;
@@ -286,11 +294,27 @@ a {
     height: 45px; 
 }
 
+a.studio-phone-image {
+    background: url('../images/phoneStudio.png'); 
+    display: block; 
+    width: 28px;
+    height: 45px; 
+    margin-bottom: 10px;
+}
+
 .block:hover .studio-heart-image {
     background: url('../images/lifelineWhiteStudio.png'); 
     display: block;
     width: 57px; 
     height: 45px; 
+}
+
+a.studio-heart-image {
+    background: url('../images/lifelineBlueStudio.png'); 
+    display: block; 
+    width: 59px;
+    height: 48px; 
+    margin-bottom: 10px;
 }
 
 .img-white:hover {
@@ -602,8 +626,8 @@ a {
 .color-strip h1 {
     display: flex;
     text-align: center;
-    position: absolute;
-    z-index: 1; 
+    position: relative;
+    z-index: 0; 
     font-family: Tahoma-Bold, sans-serif;
     font-size: 97px;
     font-weight: bold;
@@ -613,10 +637,10 @@ a {
 
 .color-strip h2 {
     display: flex;
+    align-items: center;
     position: absolute;
-    left: 750px;
-    top: 35px;
-    z-index: 2; 
+    margin-top: 40px;
+    z-index: 1; 
     font-family: Parangon530C-Regular, sans-serif;
     font-size: 36px;
     font-weight: bold;
@@ -682,12 +706,12 @@ a {
     height: 66px;
 }
 
-/* .color-strip-button button:hover {
-    color: #ffffff;
-    background-color: #f7bb65;
+.color-strip-button button:hover {
+    color: #6a6b8e;
+    background-color: #fff;
     font-family: Tahoma-Bold, sans-serif;
     font-weight: bold;
-} */
+}
 
 /* -------adaptation------- */
 .adaptation {
