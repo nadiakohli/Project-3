@@ -409,7 +409,11 @@ a.studio-heart-image {
     width: 1135px;
 }
 
-.development-block-1 h1 {
+.wrapper {
+    position: relative;
+}
+
+.development-block h1 {
     position: absolute;
     left: 45px;
     top: 75px;
@@ -425,9 +429,9 @@ a.studio-heart-image {
     border-bottom: 2px solid #fff;
 }
 
-.development-block-2 h1 {
+/* .development-block-2 h1 {
     position: absolute;
-    left: 428px;
+    left: 45px;
     top: 75px;
     z-index: 3; 
     font-family: Exo20-Bold, sans-serif;
@@ -435,9 +439,9 @@ a.studio-heart-image {
     font-weight: bold;
     color: #fff;
     text-transform: uppercase;
-}
+} */
 
-.development-block-3 h1 {
+/* .development-block-3 h1 {
     position: absolute;
     left: 806px;
     top: 75px;
@@ -447,9 +451,9 @@ a.studio-heart-image {
     font-weight: bold;
     color: #fff;
     text-transform: uppercase;
-}
+} */
 
-.development-button-arrow-1 {
+.development-button-arrow {
     position: absolute;
     left: 44px;
     top: 240px;
@@ -461,19 +465,22 @@ a.studio-heart-image {
     align-items: center;
 }
 
-.development-button-arrow-1 button {
+.development-button-arrow button {
     margin: 5px 0;
     color: #fff;
     background: transparent;
-    border: 2px solid #00b9e7;
     padding: 8px 19px;
     font-size: 24px;
     font-family: MyriadPro-Regular, sans-serif;
 }
 
-.development-button-arrow-2 {
+.development-button-arrow .blue-btn {
+    border: 2px solid #00b9e7;
+}
+
+/* .development-button-arrow-2 {
     position: absolute;
-    left: 425px;
+    left: 44px;
     top: 240px;
     z-index: 4;
     width: 280px; 
@@ -481,19 +488,13 @@ a.studio-heart-image {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
-.development-button-arrow-2 button {
-    margin: 5px 0;
-    color: #fff;
-    background: transparent;
+.development-button-arrow .yellow-btn {
     border: 2px solid #f6ae48;
-    padding: 8px 19px;
-    font-size: 24px;
-    font-family: MyriadPro-Regular, sans-serif;
 }
 
-.development-button-arrow-3 {
+/* .development-button-arrow-3 {
     position: absolute;
     left: 801px;
     top: 240px;
@@ -502,43 +503,32 @@ a.studio-heart-image {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-}
+    align-items: center; 
+} */
 
-.development-button-arrow-3 button {
-    margin: 5px 0;
-    color: #fff;
-    background: transparent;
+.development-button-arrow .green-btn {
     border: 2px solid #66bf0d;
-    padding: 8px 19px;
-    font-size: 24px;
-    font-family: MyriadPro-Regular, sans-serif;
 }
 
-#color-rectangle-1 {
+#rectangle {
     bottom: -46px;
     position: absolute;
     z-index: 5;
     width: 366px;
     height: 52px;
+    margin-bottom: 0;
+    border: none;
+}
+
+.blue {
     background-color: #00b9e7;
 }
 
-#color-rectangle-2 {
-    bottom: -46px;
-    position: absolute;
-    z-index: 5;
-    width: 366px;
-    height: 52px;
+.yellow {
     background-color: #ffcb00;
 }
 
-#color-rectangle-3 {
-    bottom: -46px;
-    position: absolute;
-    z-index: 5;
-    width: 366px;
-    height: 52px;
+.green {
     background-color: #66bf0d;
 }
 
